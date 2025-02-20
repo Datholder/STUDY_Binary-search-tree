@@ -5,20 +5,21 @@ int main() {
 	initTree(tree);
 	TYPEINFO valueToFind, valueToDelete;
 	int choice;
+
+	cout << "\n\nBinary search tree program.\n";
+	cout << "1: Create binary search tree.\n";
+	cout << "2: Inorder  traversal by loop.\n";
+	cout << "3: Preorder traversal by loop.\n";
+	cout << "4: Postorder traversal by loop.\n";
+	cout << "5: Inorder traversal by recursion.\n";
+	cout << "6: Preorder traversal by recursion.\n";
+	cout << "7: Postorder traversal by recursion.\n";
+	cout << "8: Find value in tree by loop.\n";
+	cout << "9: Find value in tree by recursion.\n";
+	cout << "10: Delete node in tree.\n";
+	cout << "-99: break program.\n";
 	do
 	{
-		cout << "\n\nBinary search tree program.\n";
-		cout << "1: Create binary search tree.\n";
-		cout << "2: Inorder  traversal by loop.\n";
-		cout << "3: Preorder traversal by loop.\n";
-		cout << "4: Postorder traversal by loop.\n";
-		cout << "5: Inorder traversal by recursion.\n";
-		cout << "6: Preorder traversal by recursion.\n";
-		cout << "7: Postorder traversal by recursion.\n";
-		cout << "8: Find value in tree by loop.\n";
-		cout << "9: Find value in tree by recursion.\n";
-		cout << "10: Delete node in tree.\n";
-		cout << "-99: break program.\n";
 		cout << "ENTER YOUR CHOICE: "; cin >> choice;
 
 		switch (choice){
